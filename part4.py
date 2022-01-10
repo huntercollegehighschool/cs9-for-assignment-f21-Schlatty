@@ -38,5 +38,14 @@ buzz
 fizz
 
 """
+number = int(input("Enter an integer: "))
 
-# write your code here 
+for counter in range (1, number + 1):
+  if counter % 15 == 0:
+    print ("fizzbuzz")
+  elif counter % 5 == 0:
+    print ("buzz")
+  elif counter % 3 == 0:
+    print ("fizz")
+  else:
+    print (counter)
