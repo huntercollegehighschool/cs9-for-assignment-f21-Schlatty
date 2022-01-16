@@ -18,4 +18,8 @@ Enter the height: 3
 
 """
 
-#write your code here 
+base = int(input("What is the base of your rectagle?"))
+height = int(input("What is the height of your rectagle?"))
+print("\n")
+for counter in range (height):  
+  print("*" * base)
